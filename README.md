@@ -62,6 +62,7 @@ Anggota tim cukup install APK ini, aktifkan Install unknown apps di Android.
 ---
 
 ## 🔧 Setup Telegram
+
 Buat Telegram Bot di BotFather
 Dapatkan Bot Token.
 Tambahkan Chat ID dari grup atau chat tujuan.
@@ -71,6 +72,7 @@ Tambahkan rule (Sender & Contains) jika ingin filter SMS.
 ---
 
 ## 📝 Catatan
+
 Semua setting disimpan lokal di device menggunakan SharedPreferences.
 Jika aplikasi di-uninstall → semua data setting dan history akan hilang.
 APK debug hanya untuk internal testing, release APK lebih aman.
@@ -79,6 +81,7 @@ Background service akan otomatis berjalan saat HP menyala.
 ---
 
 ## 🔗 Struktur Project
+
 ```bash
 app/
  └─ src/
@@ -104,6 +107,7 @@ app/
 ---
 
 ## 📌 License
+
 MIT License. Bebas digunakan, modifikasi, dan distribusikan untuk tujuan internal tim.
 
 
