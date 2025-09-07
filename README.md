@@ -30,6 +30,7 @@ Aplikasi Android untuk **meneruskan SMS ke Telegram** secara otomatis, dengan fi
 ```bash
 git clone https://github.com/username/mysmsforwarder.git
 cd mysmsforwarder
+```
 
 2. Buka project di Android Studio.
 
