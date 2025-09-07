@@ -35,16 +35,18 @@ cd mysmsforwarder
 2. Buka project di Android Studio.
 
 3. Tambahkan permission di AndroidManifest.xml:
-```xml
+```bash
 <uses-permission android:name="android.permission.RECEIVE_SMS"/>
 <uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+```
 
 4. Build APK debug (untuk testing):
 Menu Build → Build Bundle(s) / APK(s) → Build APK(s)
 APK debug akan berada di:
-```lua
+```bash
 app/build/outputs/apk/debug/app-debug.apk
+```
 
 5. Build APK release (untuk distribusi internal):
 Menu Build → Generate Signed Bundle / APK → APK → Release
@@ -53,6 +55,7 @@ Pilih build type: release.
 APK release akan berada di:
 ```bash
 app/build/outputs/apk/release/app-release.apk
+```
 
 Anggota tim cukup install APK ini, aktifkan Install unknown apps di Android.
 
@@ -90,6 +93,7 @@ app/
              │   └─ item_history.xml
              ├─ values/strings.xml
              └─ mipmap/
+```
 
 📌 License
 MIT License. Bebas digunakan, modifikasi, dan distribusikan untuk tujuan internal tim.
